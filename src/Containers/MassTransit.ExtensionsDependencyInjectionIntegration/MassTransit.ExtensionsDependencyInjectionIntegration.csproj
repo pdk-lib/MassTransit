@@ -7,10 +7,11 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>MassTransit.Extensions.DependencyInjection</PackageId>
+    <PackageId>Bdk.MassTransit.Extensions.DependencyInjection</PackageId>
     <Title>MassTransit.Extensions.DependencyInjection</Title>
     <PackageTags>MassTransit;DependencyInjection</PackageTags>
     <Description>MassTransit Microsoft.Extensions.DependencyInjection support; $(Description)</Description>
+    <Version>7.2.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

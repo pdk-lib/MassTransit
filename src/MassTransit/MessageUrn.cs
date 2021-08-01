@@ -84,6 +84,14 @@ namespace MassTransit
         static string GetMessageName(StringBuilder sb, Type type, bool includeScope)
         {
             var typeInfo = type.GetTypeInfo();
+
+            var entityName = typeInfo.GetCustomAttribute<MassTransit.Topology.EntityNameAttribute>();
+            if (!(entityName is null))
+            {
+                sb.Append(entityName.EntityName);
+                return sb.ToString();
+            }
+
             if (typeInfo.IsGenericParameter)
                 return "";
 

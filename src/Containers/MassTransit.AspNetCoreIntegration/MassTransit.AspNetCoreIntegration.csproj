@@ -6,10 +6,11 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>MassTransit.AspNetCore</PackageId>
+    <PackageId>Bdk.MassTransit.AspNetCore</PackageId>
     <Title>MassTransit.AspNetCore</Title>
     <PackageTags>MassTransit;AspNetCore</PackageTags>
     <Description>MassTransit hosting for ASP.NET Core; $(Description)</Description>
+    <Version>7.2.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
