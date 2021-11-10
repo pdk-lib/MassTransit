@@ -1,12 +1,7 @@
 namespace MassTransit.Registration
 {
-    using Courier;
-
-
-    public interface ICompensateActivityEndpointRegistrationConfigurator<TActivity, TLog> :
+    public interface ICompensateActivityEndpointRegistrationConfigurator :
         IEndpointRegistrationConfigurator
-        where TActivity : class, ICompensateActivity<TLog>
-        where TLog : class
     {
     }
 }
