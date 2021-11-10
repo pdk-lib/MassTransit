@@ -6,21 +6,19 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>MassTransit.AspNetCore</PackageId>
+    <PackageId>Bdk.MassTransit.AspNetCore</PackageId>
     <Title>MassTransit.AspNetCore</Title>
     <PackageTags>MassTransit;AspNetCore</PackageTags>
     <Description>MassTransit hosting for ASP.NET Core; $(Description)</Description>
+    <Version>7.2.4</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="3.1.18" />
     <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="3.1.18" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\MassTransit\MassTransit.csproj" />
-    <ProjectReference Include="..\MassTransit.ExtensionsDependencyInjectionIntegration\MassTransit.ExtensionsDependencyInjectionIntegration.csproj" />
+    <PackageReference Include="MassTransit" Version="7.2.4" />
+    <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="7.2.4" />
   </ItemGroup>
 
 </Project>

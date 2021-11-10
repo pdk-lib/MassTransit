@@ -6,19 +6,17 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>MassTransit.RabbitMQ</PackageId>
+    <PackageId>Bdk.MassTransit.RabbitMQ</PackageId>
     <Title>MassTransit.RabbitMQ</Title>
     <PackageTags>MassTransit;RabbitMQ</PackageTags>
     <Description>MassTransit RabbitMQ transport support; $(Description)</Description>
+    <Version>7.2.4</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="RabbitMQ.Client" Version="6.2.2" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\MassTransit\MassTransit.csproj" />
+    <PackageReference Include="MassTransit" Version="7.2.4" />
   </ItemGroup>
 
   <ItemGroup>
