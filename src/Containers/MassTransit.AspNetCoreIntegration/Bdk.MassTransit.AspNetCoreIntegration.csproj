@@ -10,7 +10,7 @@
     <Title>MassTransit.AspNetCore</Title>
     <PackageTags>MassTransit;AspNetCore</PackageTags>
     <Description>MassTransit hosting for ASP.NET Core; $(Description)</Description>
-    <Version>7.2.4</Version>
+    <Version>7.2.4.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
