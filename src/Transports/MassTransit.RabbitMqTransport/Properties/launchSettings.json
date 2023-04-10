@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Pdk.MassTransit.RabbitMqTransport": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:10641;http://localhost:10646"
+    }
+  }
+}
